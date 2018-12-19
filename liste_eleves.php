@@ -68,7 +68,7 @@ $Liste= [
 
 foreach($Liste as $i => $i_name)//pour chaque [tableau] as i(num index tab) => i_name (nouvelle variable)
 {
-    echo "<a href=\"Liste2.php\">";
+    echo "<a href=\"Liste2.php?ID\">";
     echo $i_name[0] . ' ' . $i_name[1]."<br/>";// nouvelle variable tab dans tab [0] index etc...
     echo "<br/><br/>";
 }

@@ -63,6 +63,8 @@ $Liste= [
 
 <?php
 
+
+
 for ($i=0; $i<=18; $i++){
     echo $Liste[$i][2].'ans-'.$Liste[$i][3]."<br/>".$Liste[$i]['passions'][0]." ".$Liste[$i]['passions'][1]." ".$Liste[$i]['passions'][2];
     echo "<br/><br/>";
