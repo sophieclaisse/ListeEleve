@@ -62,6 +62,7 @@ $Liste= [
 </head>
 <body>
 
+<h1>Liste des élèves</h1>
 
 <?php
 
